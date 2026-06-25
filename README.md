@@ -1,5 +1,9 @@
 # n8n-nodes-flowproof
 
+[![License](https://img.shields.io/github/license/AkuchiS/n8n-nodes-flowproof?color=8A2BE2)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/AkuchiS/n8n-nodes-flowproof?color=8A2BE2)](https://github.com/AkuchiS/n8n-nodes-flowproof/commits)
+[![Stars](https://img.shields.io/github/stars/AkuchiS/n8n-nodes-flowproof?color=8A2BE2)](https://github.com/AkuchiS/n8n-nodes-flowproof/stargazers)
+
 An n8n community node that validates a workflow export **imports cleanly** — before you ship it to a client, publish it, or trust one you downloaded. It catches the exact things that break shared templates on import:
 
 - 🔑 **leaked credentials** embedded in the JSON (must never ship)

@@ -1,6 +1,3 @@
-# NOTE: the 3 Python repos are guaranteed green (selftests verified locally).
-# This Node one builds + runs the smoke test; confirm the first run is green
-# (it needs package-lock.json present — it is).
 name: tests
 on:
   push:
